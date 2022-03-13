@@ -5,9 +5,15 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfAppFramework"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        <Button Content="Button" HorizontalAlignment="Center" VerticalAlignment="Center" Click="Button_Click" Width="75"/>
-
-    </Grid>
+        Title="MainWindow" Height="450" Width="800" WindowStartupLocation="CenterScreen">
+    <Border>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+            <TextBox Grid.Row="0" Width="150px" FontSize="16px" Foreground="{Binding ValueColor}" BorderThickness="1" BorderBrush="#000" VerticalAlignment="Center" HorizontalAlignment="Center" Height="50px" Text="{Binding Value}"></TextBox>
+            <Button Grid.Row="1" Name="button" Width="100px" Height="50px" Content="设置" Click="button_Click"></Button>
+        </Grid>
+    </Border>
 </Window>

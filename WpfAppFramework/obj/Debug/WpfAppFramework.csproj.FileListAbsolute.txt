@@ -1,0 +1,15 @@
+G:\Private\Study\WPFStudyNotes\WpfAppFramework\bin\Debug\WpfAppFramework.exe.config
+G:\Private\Study\WPFStudyNotes\WpfAppFramework\bin\Debug\WpfAppFramework.exe
+G:\Private\Study\WPFStudyNotes\WpfAppFramework\bin\Debug\WpfAppFramework.pdb
+G:\Private\Study\WPFStudyNotes\WpfAppFramework\obj\Debug\WpfAppFramework.csproj.AssemblyReference.cache
+G:\Private\Study\WPFStudyNotes\WpfAppFramework\obj\Debug\MainWindow.g.cs
+G:\Private\Study\WPFStudyNotes\WpfAppFramework\obj\Debug\App.g.cs
+G:\Private\Study\WPFStudyNotes\WpfAppFramework\obj\Debug\WpfAppFramework_MarkupCompile.cache
+G:\Private\Study\WPFStudyNotes\WpfAppFramework\obj\Debug\WpfAppFramework_MarkupCompile.lref
+G:\Private\Study\WPFStudyNotes\WpfAppFramework\obj\Debug\MainWindow.baml
+G:\Private\Study\WPFStudyNotes\WpfAppFramework\obj\Debug\WpfAppFramework.g.resources
+G:\Private\Study\WPFStudyNotes\WpfAppFramework\obj\Debug\WpfAppFramework.Properties.Resources.resources
+G:\Private\Study\WPFStudyNotes\WpfAppFramework\obj\Debug\WpfAppFramework.csproj.GenerateResource.cache
+G:\Private\Study\WPFStudyNotes\WpfAppFramework\obj\Debug\WpfAppFramework.csproj.CoreCompileInputs.cache
+G:\Private\Study\WPFStudyNotes\WpfAppFramework\obj\Debug\WpfAppFramework.exe
+G:\Private\Study\WPFStudyNotes\WpfAppFramework\obj\Debug\WpfAppFramework.pdb

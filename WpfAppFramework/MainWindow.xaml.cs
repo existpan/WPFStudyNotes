@@ -20,14 +20,17 @@ namespace WpfAppFramework
     /// </summary>
     public partial class MainWindow : Window
     {
+        ViewModel viewModel = null;
         public MainWindow()
         {
             InitializeComponent();
+            viewModel = new ViewModel();
+            this.DataContext = viewModel;
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void button_Click(object sender, RoutedEventArgs e)
         {
-
+            viewModel.Value = "100";
         }
     }
 }
