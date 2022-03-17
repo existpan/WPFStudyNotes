@@ -30,7 +30,7 @@ namespace WpfAppFramework
 
         private void button_Click(object sender, RoutedEventArgs e)
         {
-            viewModel.Value = "100";
+            //viewModel.Value = "100";
         }
     }
 }

@@ -13,7 +13,9 @@
                 <RowDefinition></RowDefinition>
             </Grid.RowDefinitions>
             <TextBox Grid.Row="0" Width="150px" FontSize="16px" Foreground="{Binding ValueColor}" BorderThickness="1" BorderBrush="#000" VerticalAlignment="Center" HorizontalAlignment="Center" Height="50px" Text="{Binding Value}"></TextBox>
-            <Button Grid.Row="1" Name="button" Width="100px" Height="50px" Content="设置" Click="button_Click"></Button>
+            <Button Grid.Row="1" Name="button" Width="100px" Height="50px" Content="设置" 
+                    Command="{Binding ValueCommand}"
+                    CommandParameter="123" ></Button>
         </Grid>
     </Border>
 </Window>
