@@ -13,14 +13,16 @@ namespace WpfAppFramework
 
         public bool CanExecute(object parameter)
         {
-            return true;
+            //绑定了命令的按钮是否可用
+            return DoCanExecute?.Invoke(parameter)==true;
         }
 
-        public void Execute(object parameter)
+        public void Execute(object parameter) 
         {
             //控制逻辑
             DoAction?.Invoke(parameter);
         }
         public Action<object> DoAction { get; set; }
+        public Func<object, bool> DoCanExecute { get; set; }
     }
 }

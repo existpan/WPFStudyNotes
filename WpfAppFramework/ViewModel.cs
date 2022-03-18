@@ -25,6 +25,7 @@ namespace WpfAppFramework
                 {
                     ValueColor = Brushes.Red;
                 }
+                this.valueCommand
             }
         }
         private Brush _valueColor = Brushes.Gold;
@@ -38,15 +39,18 @@ namespace WpfAppFramework
                 PropertyChanged?.Invoke(this, new PropertyChangedEventArgs("ValueColor"));
             }
         }
-        private ICommand valueCommand;
+        private ICommand valueCommand; 
 
         public ICommand ValueCommand
         {
-            get
+            get 
             {
                 if (valueCommand == null)
                 {
-                    valueCommand = new CommandBase() { DoAction = new Action<object>(ValueCommandAction) };
+                    valueCommand = new CommandBase() { 
+                        DoAction = new Action<object>(ValueCommandAction),
+                     DoCanExecute=new Func<object, bool>(Canexcute)
+                    };
                 }
                 return valueCommand;
             }
@@ -54,7 +58,11 @@ namespace WpfAppFramework
         }
         private void ValueCommandAction(Object obj)
         {
-
+            Value = "100";
+        }
+        private bool Canexcute(object obj) 
+        {
+            return !string.IsNullOrEmpty(Value);
         }
     }
 }
