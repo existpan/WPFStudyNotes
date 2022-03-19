@@ -24,5 +24,9 @@ namespace WpfAppFramework
         }
         public Action<object> DoAction { get; set; }
         public Func<object, bool> DoCanExecute { get; set; }
+        public void RaiseCanChanged() 
+        {
+            CanExecuteChanged?.Invoke(this,new EventArgs());
+        }
     }
 }
