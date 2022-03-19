@@ -1,0 +1,15 @@
+G:\Private\Study\WPFStudyNotes\ResourceStudyWpfApp\bin\Debug\ResourceStudyWpfApp.exe.config
+G:\Private\Study\WPFStudyNotes\ResourceStudyWpfApp\bin\Debug\ResourceStudyWpfApp.exe
+G:\Private\Study\WPFStudyNotes\ResourceStudyWpfApp\bin\Debug\ResourceStudyWpfApp.pdb
+G:\Private\Study\WPFStudyNotes\ResourceStudyWpfApp\obj\Debug\ResourceStudyWpfApp.csproj.AssemblyReference.cache
+G:\Private\Study\WPFStudyNotes\ResourceStudyWpfApp\obj\Debug\MainWindow.g.cs
+G:\Private\Study\WPFStudyNotes\ResourceStudyWpfApp\obj\Debug\App.g.cs
+G:\Private\Study\WPFStudyNotes\ResourceStudyWpfApp\obj\Debug\ResourceStudyWpfApp_MarkupCompile.cache
+G:\Private\Study\WPFStudyNotes\ResourceStudyWpfApp\obj\Debug\ResourceStudyWpfApp_MarkupCompile.lref
+G:\Private\Study\WPFStudyNotes\ResourceStudyWpfApp\obj\Debug\MainWindow.baml
+G:\Private\Study\WPFStudyNotes\ResourceStudyWpfApp\obj\Debug\ResourceStudyWpfApp.g.resources
+G:\Private\Study\WPFStudyNotes\ResourceStudyWpfApp\obj\Debug\ResourceStudyWpfApp.Properties.Resources.resources
+G:\Private\Study\WPFStudyNotes\ResourceStudyWpfApp\obj\Debug\ResourceStudyWpfApp.csproj.GenerateResource.cache
+G:\Private\Study\WPFStudyNotes\ResourceStudyWpfApp\obj\Debug\ResourceStudyWpfApp.csproj.CoreCompileInputs.cache
+G:\Private\Study\WPFStudyNotes\ResourceStudyWpfApp\obj\Debug\ResourceStudyWpfApp.exe
+G:\Private\Study\WPFStudyNotes\ResourceStudyWpfApp\obj\Debug\ResourceStudyWpfApp.pdb
